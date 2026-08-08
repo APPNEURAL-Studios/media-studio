@@ -1,0 +1,16 @@
+{
+  "name": "@appneural/media-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Media Studio — served at media.studio.appneural.com",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy --env production"
+  },
+  "devDependencies": {
+    "wrangler": "^4.119.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

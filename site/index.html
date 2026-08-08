@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Media Studio — APPNEURAL</title>
+<meta name="description" content="Edit video with multi-track timelines, reels, webinars, and screen recordings, plus AI video generation and green-screen compositing. Produce podcasts, voice-overs, TTS, sound effects, audiobooks, and AI voice cloning.">
+<style>
+:root {
+  --bg: #0b0d12;
+  --panel: #12151c;
+  --border: #1f2430;
+  --text: #e8eaf0;
+  --muted: #9aa2b1;
+  --accent: #7c9cff;
+  --accent-2: #57e0c4;
+  --new: #57e0c4;
+  --gap: #f0a35b;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f6f7fb;
+    --panel: #ffffff;
+    --border: #e4e7ef;
+    --text: #171a21;
+    --muted: #5b6270;
+    --accent: #4a63e0;
+    --accent-2: #0f9e82;
+    --new: #0f9e82;
+    --gap: #b1650f;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+  line-height: 1.55;
+}
+.wrap { max-width: 880px; margin: 0 auto; padding: 56px 24px 96px; }
+.eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+h1 { font-size: 40px; margin: 0 0 8px; letter-spacing: -0.02em; }
+.tagline { font-size: 18px; color: var(--muted); margin: 0 0 28px; }
+.desc { font-size: 16px; color: var(--text); max-width: 68ch; margin: 0 0 40px; }
+.grid-links { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 48px; }
+.grid-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  background: var(--panel);
+}
+.grid-links a.primary { background: var(--accent); color: #0b0d12; border-color: var(--accent); }
+section { margin-bottom: 44px; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 18px; font-weight: 600; }
+.cat { font-size: 15px; font-weight: 600; margin: 20px 0 10px; color: var(--text); }
+.cat:first-child { margin-top: 0; }
+.editor-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.editor-card {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.editor-card .name { font-weight: 600; font-size: 14px; margin-bottom: 3px; }
+.editor-card .desc { font-size: 13px; color: var(--muted); margin: 0; max-width: none; }
+.svc-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.svc {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12.5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+}
+.svc.st-new { border-color: var(--new); color: var(--new); }
+.svc.st-gap { border-color: var(--gap); color: var(--gap); opacity: .85; }
+.baseline-note { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+footer { border-top: 1px solid var(--border); padding-top: 24px; margin-top: 56px; font-size: 13px; color: var(--muted); }
+footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="eyebrow">APPNEURAL Studios</span>
+  <h1>Media Studio</h1>
+  <p class="tagline">Video, audio, podcast and subtitles</p>
+  <p class="desc">Edit video with multi-track timelines, reels, webinars, and screen recordings, plus AI video generation and green-screen compositing. Produce podcasts, voice-overs, TTS, sound effects, audiobooks, and AI voice cloning.</p>
+
+  <div class="grid-links">
+    <a class="primary" href="https://studios.appneural.com">All Studios</a>
+    <a href="https://github.com/APPNEURAL-Studios/media-studio">GitHub Repo</a>
+  </div>
+
+  <section>
+    <h2>Editors (31)</h2>
+    <div class="cat">Video Editors</div><div class="editor-list"><div class="editor-card"><div class="name">Video Timeline Editor</div><p class="desc">Multi-track video editing timeline</p></div>
+<div class="editor-card"><div class="name">Short/Reel Editor</div><p class="desc">Short-form vertical video creation</p></div>
+<div class="editor-card"><div class="name">Scene-Based Video Editor</div><p class="desc">Scene-by-scene video assembly</p></div>
+<div class="editor-card"><div class="name">AI Video Generator</div><p class="desc">AI-powered video generation</p></div>
+<div class="editor-card"><div class="name">Explainer Video Editor</div><p class="desc">Animated explainer video creation</p></div>
+<div class="editor-card"><div class="name">Promotional Video Editor</div><p class="desc">Marketing/promo video production</p></div>
+<div class="editor-card"><div class="name">Interview Video Editor</div><p class="desc">Multi-angle interview editing</p></div>
+<div class="editor-card"><div class="name">Webinar Editor</div><p class="desc">Webinar recording and editing</p></div>
+<div class="editor-card"><div class="name">Screen Recording Editor</div><p class="desc">Screen capture and annotation</p></div>
+<div class="editor-card"><div class="name">Green-Screen Editor</div><p class="desc">Chroma key compositing</p></div>
+<div class="editor-card"><div class="name">Subtitle Editor</div><p class="desc">Subtitle/caption creation and sync</p></div>
+<div class="editor-card"><div class="name">Transcript Editor</div><p class="desc">Video transcript editing</p></div>
+<div class="editor-card"><div class="name">Intro/Outro Editor</div><p class="desc">Video intro/outro sequences</p></div>
+<div class="editor-card"><div class="name">Video Thumbnail Editor</div><p class="desc">Video thumbnail design</p></div>
+<div class="editor-card"><div class="name">Interactive Video Editor</div><p class="desc">Branching/interactive video</p></div>
+<div class="editor-card"><div class="name">Multi-Camera Editor</div><p class="desc">Multi-cam angle switching</p></div>
+<div class="editor-card"><div class="name">Video Template Editor</div><p class="desc">Reusable video template design</p></div></div>
+<div class="cat">Audio &amp; Voice Editors</div><div class="editor-list"><div class="editor-card"><div class="name">Audio Editor</div><p class="desc">Core audio editing and trimming</p></div>
+<div class="editor-card"><div class="name">Music Editor</div><p class="desc">Music composition and arrangement</p></div>
+<div class="editor-card"><div class="name">Podcast Editor</div><p class="desc">Podcast episode production</p></div>
+<div class="editor-card"><div class="name">Voice-Over Editor</div><p class="desc">Voice-over recording and sync</p></div>
+<div class="editor-card"><div class="name">Text-to-Speech Editor</div><p class="desc">TTS voice generation</p></div>
+<div class="editor-card"><div class="name">Sound Effect Editor</div><p class="desc">SFX library and editing</p></div>
+<div class="editor-card"><div class="name">Audio Mixing Editor</div><p class="desc">Multi-track audio mixing</p></div>
+<div class="editor-card"><div class="name">Waveform Editor</div><p class="desc">Waveform-level audio editing</p></div>
+<div class="editor-card"><div class="name">MIDI Editor</div><p class="desc">MIDI sequence editing</p></div>
+<div class="editor-card"><div class="name">Jingle Editor</div><p class="desc">Short audio jingle creation</p></div>
+<div class="editor-card"><div class="name">Audiobook Editor</div><p class="desc">Audiobook chapter assembly</p></div>
+<div class="editor-card"><div class="name">Voice-Cloning Studio</div><p class="desc">AI voice cloning and synthesis</p></div>
+<div class="editor-card"><div class="name">Noise-Removal Editor</div><p class="desc">Audio noise reduction</p></div>
+<div class="editor-card"><div class="name">IVR Audio Editor</div><p class="desc">Phone system audio prompts</p></div></div>
+  </section>
+
+  <section>
+    <h2>Microservices Used</h2>
+    <p class="baseline-note">Platform baseline (common to every app &amp; studio):</p>
+    <div class="svc-list"><span class="svc">gateway-service</span>
+<span class="svc">authentication-service</span>
+<span class="svc">identity-service</span>
+<span class="svc">access-service</span>
+<span class="svc">security-service</span>
+<span class="svc">audit-service</span>
+<span class="svc">observability-service</span>
+<span class="svc">control-service</span>
+<span class="svc">deployment-service</span>
+<span class="svc">integration-service</span>
+<span class="svc">storage-service</span>
+<span class="svc">reporting-service</span>
+<span class="svc">analytics-service</span>
+<span class="svc">notification-service</span></div>
+    <p class="baseline-note" style="margin-top:18px;">Functional services (6):</p>
+    <div class="svc-list"><span class="svc st-new">media-service</span>
+<span class="svc st-core">publishing-service</span>
+<span class="svc st-core">model-service</span>
+<span class="svc st-core">agent-service</span>
+<span class="svc st-gap">asset-service</span>
+<span class="svc st-gap">collaboration-service</span></div>
+  </section>
+
+  <footer>
+    <a href="https://studios.appneural.com">studios.appneural.com</a> · part of the APPNEURAL platform
+  </footer>
+</div>
+</body>
+</html>

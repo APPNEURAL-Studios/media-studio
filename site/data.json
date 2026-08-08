@@ -1,0 +1,190 @@
+{
+  "slug": "media-studio",
+  "host": "media",
+  "title": "Media Studio",
+  "tagline": "Video, audio, podcast and subtitles",
+  "description": "Edit video with multi-track timelines, reels, webinars, and screen recordings, plus AI video generation and green-screen compositing. Produce podcasts, voice-overs, TTS, sound effects, audiobooks, and AI voice cloning.",
+  "editors": [
+    {
+      "category": "Video Editors",
+      "name": "Video Timeline Editor",
+      "desc": "Multi-track video editing timeline"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Short/Reel Editor",
+      "desc": "Short-form vertical video creation"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Scene-Based Video Editor",
+      "desc": "Scene-by-scene video assembly"
+    },
+    {
+      "category": "Video Editors",
+      "name": "AI Video Generator",
+      "desc": "AI-powered video generation"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Explainer Video Editor",
+      "desc": "Animated explainer video creation"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Promotional Video Editor",
+      "desc": "Marketing/promo video production"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Interview Video Editor",
+      "desc": "Multi-angle interview editing"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Webinar Editor",
+      "desc": "Webinar recording and editing"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Screen Recording Editor",
+      "desc": "Screen capture and annotation"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Green-Screen Editor",
+      "desc": "Chroma key compositing"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Subtitle Editor",
+      "desc": "Subtitle/caption creation and sync"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Transcript Editor",
+      "desc": "Video transcript editing"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Intro/Outro Editor",
+      "desc": "Video intro/outro sequences"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Video Thumbnail Editor",
+      "desc": "Video thumbnail design"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Interactive Video Editor",
+      "desc": "Branching/interactive video"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Multi-Camera Editor",
+      "desc": "Multi-cam angle switching"
+    },
+    {
+      "category": "Video Editors",
+      "name": "Video Template Editor",
+      "desc": "Reusable video template design"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Audio Editor",
+      "desc": "Core audio editing and trimming"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Music Editor",
+      "desc": "Music composition and arrangement"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Podcast Editor",
+      "desc": "Podcast episode production"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Voice-Over Editor",
+      "desc": "Voice-over recording and sync"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Text-to-Speech Editor",
+      "desc": "TTS voice generation"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Sound Effect Editor",
+      "desc": "SFX library and editing"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Audio Mixing Editor",
+      "desc": "Multi-track audio mixing"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Waveform Editor",
+      "desc": "Waveform-level audio editing"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "MIDI Editor",
+      "desc": "MIDI sequence editing"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Jingle Editor",
+      "desc": "Short audio jingle creation"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Audiobook Editor",
+      "desc": "Audiobook chapter assembly"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Voice-Cloning Studio",
+      "desc": "AI voice cloning and synthesis"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "Noise-Removal Editor",
+      "desc": "Audio noise reduction"
+    },
+    {
+      "category": "Audio & Voice Editors",
+      "name": "IVR Audio Editor",
+      "desc": "Phone system audio prompts"
+    }
+  ],
+  "services": [
+    [
+      "media",
+      "new"
+    ],
+    [
+      "publishing",
+      "core"
+    ],
+    [
+      "model",
+      "core"
+    ],
+    [
+      "agent",
+      "core"
+    ],
+    [
+      "asset",
+      "gap"
+    ],
+    [
+      "collaboration",
+      "gap"
+    ]
+  ]
+}
